@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora js</title>
+</head>
+
+<body>
+
+    <h1><em>Calculadora</em></h1>
+    <!--  -->
+    <hr>
+    <!--  -->
+    <h1>Suma</h1>
+
+    <button onclick="Suma()">Suma</button>
+    <br>
+
+    <h1>Resta</h1>
+    <form action="">
+        <input type="number" name="numero1" id="txtN1" placeholder="Ingresa n1">
+        <label for="numero 1"></label>
+        <input type="number" name="numero2" id="txtN2" placeholder="Ingresa n2">
+        <label for="numero 2"></label>
+        <button onclick="Resta()">Restar</button>
+    </form>
+    <hr>
+
+    <h1>Multiplicación</h1>
+
+    <!-- <button onclick="Multiplicacion()">Multiplicacion</button> -->
+
+    <form action="">
+
+        <label for="numero3">Ingresa no. 3</label>
+        <input type="number" name="numero3" id="txtN3">
+        <label for="numero4">Ingresa no. 4</label>
+        <input type="number" name="numero4" id="txtN4">
+
+        <button onclick="Multiplicacion()">Multiplicacion</button>
+
+    </form>
+    <hr>
+
+    <h2>Multiplicacion 2</h2>
+    <fieldset>
+        <legend>Ingrese dos numeros</legend>
+        <form action="">
+            <label for="">Numero 1:</label>
+            <input type="number" id="txtNn1" required>
+            <br><br>
+            <label for="">Numero 2</label>
+            <input type="number" id="txtNn2" required>
+            <br><br>
+            <button type="button" onclick="Multi()">Multiplicar</button>
+            <button type="reset">borrar</button>
+        </form>
+    </fieldset>
+    <hr>
+
+    <h2>Division</h2>
+    <fieldset>
+        <legend>Ingrese dos numeros</legend>
+        <form action="">
+            <label for="">numero 3</label>
+            <input type="number" id="txtNn3" required>
+            <br><br>
+            <label for="">numero4</label>
+            <input type="number" id="txtNn4" required>
+            <br><br>
+            <button type="button" onclick="Div()">Divicion</button>
+        </form>
+    </fieldset>
+
+
+
+
+</body>
+
+</html>
+<script src="js/calculadora.js"></script>
